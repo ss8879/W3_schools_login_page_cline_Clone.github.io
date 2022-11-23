@@ -1,0 +1,128 @@
+
+#Close{
+    background-color: white;
+        color: black;
+        padding: 1em;
+        transition: all 100ms;
+        border: none;
+    position:absolute;left:1200px;top:4px;
+}
+#Close:hover{
+    cursor: pointer;
+}
+#Help{
+    background-color: #0f860b;
+        color: #ffffff;
+        padding: 1em;
+        width: 100px;
+        border-radius: 40px;
+        transition: all 100ms;
+        border: none;
+    position:relative;left:850px;
+}
+    main {
+        width: 500px;
+        padding: 10px;
+        border:1px solid;
+        border-color: rgb(218, 217, 217);
+        border-radius: 8px ;
+        height:450px;
+        position: relative;left:400px;
+        text-align:justify;
+        vertical-align: auto;
+    }
+   
+    #login {
+        background-color: #17af11;
+        color: #ffffff;
+        padding: 1em;
+        width: 400px;
+        border-radius: 40px;
+        transition: all 100ms;
+        border: none;
+    }
+    #login:hover {
+        background-color: #12b638;
+        cursor: pointer;
+    }
+    #Forgotpassword{
+        background-color: white;
+        color: black;
+        padding: 1em;
+        width: 280px;
+        border-radius: 30px;
+        transition: all 100ms;
+        border: none;
+        position: relative;left:50px;
+       
+    }
+    #Forgotpassword:hover {
+        background-color: #e8e4eb;
+        cursor: pointer;
+    }
+    
+    .popup{
+        width:400px;
+        background:white;
+        border-radius:6px;
+        position:absolute;
+        top:0;
+        left:50%;
+        transform: translate(-50%,-50%)scale(0.1);
+        text-align:center;
+         padding: 0 30px 30px;
+         visibility:hidden;
+         transition: transform 0.4s, top 0.4s;
+     } 
+     .open-popup{
+        visibility: visible;
+        top:50%;
+        transform: translate(-50%,-50%)scale(1);
+
+     }
+    table {
+        border-collapse: collapse;
+    }
+    
+    table,
+    th,
+    td {
+        border: solid 1px #818181;
+        text-align: center;
+        padding: 0.25em;
+    }
+    footer {
+        background-color: #ffffff;
+        width: 100%;
+        padding: 0.5em 0;
+    }
+    
+    #Help:hover{
+        cursor: pointer;
+    }
+    footer > ul.container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.3em;
+        color: rgba(0, 0, 0, 0.6);
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .footer__item {
+        padding-bottom: 0.5em;
+    }
+    
+    .footer__link {
+        color: inherit;
+        font-size: 0.9rem;
+    }
+    
+    .footer__link:hover {
+        color: #1ed11b;
+        cursor: pointer;
+    }
+    
+  
+    
+    

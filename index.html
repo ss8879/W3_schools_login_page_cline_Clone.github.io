@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>w3 school signup</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <nav class="container">
+            <a href="./">
+                <img
+                src="w3s.jpg"
+                alt="w3"
+                class="nav__logo"
+                height="100px" width="100px"
+				/>
+                <button type="submit" id="Close">
+                    <h1>X</h1>
+                  </button>
+			</a>
+		</nav>
+        <main>
+            
+<content style="position:relative;left:50px;">
+    <form class="main__form">
+            <h1>Log in</h1>
+            <div>
+                <label for="email"><b>Email</b></label>
+                <br><br>
+                <input type="email" id="email"style="height: 45px;width:400px;"placeholder="xyz@gmail.com">
+            </div>
+            <div style="position:relative;top: 30px;height: 10px;">
+                <label for="password"><b>Password</b></label>
+                <br><br>
+                <input type="password"  style="height: 45px;width:400px;"id="password">
+            </div>
+            <div style="position:relative;top: 130px;">
+            <button type="submit" id="login">
+                <h3>Log in</h3>
+            </button>
+        </div>
+    </form>
+    <div style="position:relative;top: 160px;">
+        <button type="submit" class="btn"id="Forgotpassword"onclick="openpopup()">
+            Forgot password?
+        </button>
+    </div>
+    <div class="popup"id="popup">
+        <h2>Thank You</h2>
+        <p>Your old password is deleted enter any new password </p>
+        <button type="button" onclick="closepopup()">OK</button>
+    </div>
+</content>
+    </main>
+        <table style="width:100%" id="table">
+            <tr>
+                <th style="width:45%">Entry number</th>
+                <th style="width:45%">Email</th>
+                
+            </tr>
+        </table>
+        <footer style="position:relative;top:80px">
+            <ul class="container">
+                <a href='https://www.google.co.in/'>
+                <button type="submit" id="Help">
+                    <h3>?Help </h3>
+                  </button>
+                </a>
+				<li class="footer__item">
+					<p>&copy; 1999-2022</p>
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link">W3schools. </a>
+				</li>
+				<li class="footer__item">
+					All rights reserved.
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link">Cookie policy, </a>
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link">Privacy Policy </a>
+				</li>
+				<li class="footer__item">
+					and
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link"> Terms.</a>
+				</li>
+                </ul>
+            </footer>
+				<script src="script.js"> </script>
+    </body>
+</html>
